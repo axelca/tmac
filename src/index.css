@@ -4,10 +4,16 @@
 
 @font-face {
   font-family: "DIN_Bold";
+  font-weight: 700;
   src: url("/DIN_Bold.otf");
 }
 
 @font-face {
   font-family: "DIN_Regular";
+  font-weight: 400;
   src: url("/DIN_Regular.ttf");
+}
+
+strong {
+  font-family: "DIN_Bold";
 }
