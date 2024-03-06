@@ -43,7 +43,7 @@ const Typography = ({ variant, children, inverted }: Props) => {
       <h1
         className={
           color +
-          " text-4xl font-din uppercase sm:text-5xl mb-6 drop-shadow-[1px_1px_4px_rgba(64,228,74,0.7)]"
+          " text-4xl font-din uppercase sm:text-5xl drop-shadow-[1px_1px_4px_rgba(64,228,74,0.7)] flex w-full justify-center h-full items-center"
         }
       >
         {children}
