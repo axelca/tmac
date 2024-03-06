@@ -33,6 +33,7 @@ const App = () => (
           the Caribbean collectivistic musical atmosphere ended up founding THE
           MIND ACTION CONFLICT.
         </Typography>
+        <Typography />
         <Typography variant="h2">Social</Typography>
         <List>
           <ListItem>
@@ -81,7 +82,7 @@ const App = () => (
         <div className="grid grid-cols-12 gap-4 md:gap-12">
           <div className="col-span-12 md:col-span-6">
             <Typography variant="h2">Members</Typography>
-            <ul className="text-white mb-6">
+            <ul className="text-white mb-12">
               <li>
                 <strong>Elias Lorenzo</strong> - Vocals, guitar & production
               </li>

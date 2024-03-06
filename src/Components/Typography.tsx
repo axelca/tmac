@@ -12,7 +12,7 @@ const Typography = ({ variant, children, inverted }: Props) => {
     return (
       <h1
         className={
-          color + " font-dinBold text-3xl font-extrabold sm:text-5xl mb-6"
+          color + " font-din uppercase text-3xl font-extrabold sm:text-5xl mb-4"
         }
       >
         {children}
@@ -22,7 +22,7 @@ const Typography = ({ variant, children, inverted }: Props) => {
     return (
       <h2
         className={
-          color + " font-dinBold text-2xl font-extrabold sm:text-3xl mb-6"
+          color + " font-din uppercase text-2xl font-extrabold sm:text-3xl mb-4"
         }
       >
         {children}
@@ -32,7 +32,7 @@ const Typography = ({ variant, children, inverted }: Props) => {
     return (
       <h2
         className={
-          color + " font-dinBold text-1xl font-extrabold sm:text-2xl mb-6"
+          color + " font-din uppercase text-1xl font-extrabold sm:text-2xl mb-4"
         }
       >
         {children}
@@ -50,7 +50,7 @@ const Typography = ({ variant, children, inverted }: Props) => {
       </h1>
     );
 
-  return <p className={color + " mb-6 last:mb-0 font-din"}>{children}</p>;
+  return <p className={color + " mb-6 font-din"}>{children}</p>;
 };
 
 export default Typography;

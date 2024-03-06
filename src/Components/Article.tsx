@@ -21,9 +21,9 @@ const Article = ({ title, videos, audio, children }: Props) => {
   return (
     <article className={articleStyles}>
       <Container>
-        <Typography variant="h2">{title}</Typography>
         <div className={gridStyles}>
           <div className="col-span-12 md:col-span-6">
+            <Typography variant="h2">{title}</Typography>
             {videos?.map((video) => (
               <iframe
                 key={video}

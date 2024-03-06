@@ -19,23 +19,18 @@ const photos: Photo[] = [
   //   alt: "Placeholder alt text for now",
   // },
   {
-    src: "/TMAC-OCEANpromo_05-scaled.png",
-    href: "/TMAC-OCEANpromo_05.jpg",
-    alt: "Placeholder alt text for now",
-  },
-  {
     src: "/TMAC-OCEANpromo_06-scaled.png",
     href: "/TMAC-OCEANpromo_06.jpg",
     alt: "Placeholder alt text for now",
   },
   {
-    src: "/TMAC_Fantasy01-scaled.png",
-    href: "/TMAC_Fantasy01.jpg",
+    src: "/4.png",
+    href: "/4.png",
     alt: "Placeholder alt text for now",
   },
   {
-    src: "/TMAC_Fantasy02-scaled.png",
-    href: "/TMAC_Fantasy02.jpg",
+    src: "/3.jpg",
+    href: "/3.jpg",
     alt: "Placeholder alt text for now",
   },
   // {
@@ -44,8 +39,8 @@ const photos: Photo[] = [
   //   alt: "Placeholder alt text for now",
   // },
   {
-    src: "/TMAC_Fantasy04-scaled.png",
-    href: "/TMAC_Fantasy04.jpg",
+    src: "/2.jpg",
+    href: "/2.jpg",
     alt: "Placeholder alt text for now",
   },
   // {
@@ -54,8 +49,13 @@ const photos: Photo[] = [
   //   alt: "Placeholder alt text for now",
   // },
   {
-    src: "/TMAC_Fantasy06-scaled.png",
-    href: "/TMAC_Fantasy06.jpg",
+    src: "/header.jpg",
+    href: "/header.jpg",
+    alt: "Placeholder alt text for now",
+  },
+  {
+    src: "/TMAC-OCEANpromo_05-scaled.png",
+    href: "/TMAC-OCEANpromo_05.jpg",
     alt: "Placeholder alt text for now",
   },
   // {
