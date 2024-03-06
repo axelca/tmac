@@ -5,13 +5,13 @@
 @font-face {
   font-family: "DIN_Bold";
   font-weight: 700;
-  src: url("/DIN_Bold.otf");
+  src: url("/DIN_Bold.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "DIN_Regular";
   font-weight: 400;
-  src: url("/DIN_Regular.ttf");
+  src: url("/DIN_Regular.woff2") format("woff2");
 }
 
 strong {
